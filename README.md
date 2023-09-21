@@ -62,7 +62,7 @@ curl --location --request DELETE 'localhost:8080/api/test/1'
 
 **Endpoint base**
 ```
-curl --location --request GET 'localhost:8080/api/clientes'
+curl --location --request 'localhost:8080/api/clientes'
 ```
 
 La estructura del objeto para crear un cliente es la siguiente:
@@ -83,7 +83,7 @@ La estructura del objeto para crear un cliente es la siguiente:
 
 **Endpoint base**
 ```
-curl --location --request GET 'localhost:8080/api/cuentas'
+curl --location --request 'localhost:8080/api/cuentas'
 ```
 
 La estructura del objeto para crear una cuenta es la siguiente:
@@ -104,7 +104,7 @@ Se debe asociar la cuenta con el DNI del cliente.
 
 **Endpoint base**
 ```
-curl --location --request GET 'localhost:8080/api/movimientos'
+curl --location --request 'localhost:8080/api/movimientos'
 ```
 
 La estructura del objeto para crear un movimientos es la siguiente:
@@ -121,7 +121,7 @@ Se debe asociar el movimiento con el número de la cuenta.
 
 **Endpoint base**
 ```
-curl --location --request GET 'localhost:8080/api/reportes'
+curl --location --request 'localhost:8080/api/reportes'
 ```
 
 Para el endpoint de reportes, se puede llamar sin parámetros para obtener todos los registros o se puede filtrar usando el número de cuenta y opcionalmente un rango de fechas. Las fechas deben ir en formato dd/MM/yyyy
