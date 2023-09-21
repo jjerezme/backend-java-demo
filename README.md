@@ -60,7 +60,7 @@ curl --location --request DELETE 'localhost:8080/api/test/1'
 
 ### Clientes
 
-*Endpoint base*
+**Endpoint base**
 ```
 curl --location --request GET 'localhost:8080/api/clientes'
 ```
@@ -81,7 +81,7 @@ La estructura del objeto para crear un cliente es la siguiente:
 
 ### Cuentas
 
-*Endpoint base*
+**Endpoint base**
 ```
 curl --location --request GET 'localhost:8080/api/cuentas'
 ```
@@ -102,7 +102,7 @@ Se debe asociar la cuenta con el DNI del cliente.
 
 ### Movimientos
 
-*Endpoint base*
+**Endpoint base**
 ```
 curl --location --request GET 'localhost:8080/api/movimientos'
 ```
@@ -119,7 +119,7 @@ Se debe asociar el movimiento con el número de la cuenta.
 
 ### Reportes
 
-*Endpoint base*
+**Endpoint base**
 ```
 curl --location --request GET 'localhost:8080/api/reportes'
 ```
