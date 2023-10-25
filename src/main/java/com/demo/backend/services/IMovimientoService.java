@@ -3,7 +3,6 @@ package com.demo.backend.services;
 import java.util.List;
 import java.util.Map;
 
-import com.demo.backend.dto.CuentaDTO;
 import com.demo.backend.dto.MovimientoDTO;
 
 public interface IMovimientoService {

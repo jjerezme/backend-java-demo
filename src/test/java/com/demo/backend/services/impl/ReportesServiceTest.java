@@ -1,6 +1,5 @@
 package com.demo.backend.services.impl;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -17,7 +16,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.demo.backend.dto.MovimientoDTO;
 import com.demo.backend.dto.ReporteDTO;
 import com.demo.backend.entity.ClienteEntity;
 import com.demo.backend.entity.CuentaEntity;
